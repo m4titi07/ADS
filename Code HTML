@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheus Ronaldo</title>
+</head>
+<body>
+
+  <h1>Olá, me chamo Matheus Ronaldo</h1>
+
+  <p>
+    Tenho 23 anos, sou um jovem que gosta de se auto-desenvolver, então estou sempre em aprendizado.Tenho o sonho de viajar para alguns países e
+    também gosto de fazer algumas coisas no meu lazer, dentre essas coisas irei citar algumas logo abaixo:
+  </p>
+
+  <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+  <p id="mensagem"></p>
+
+  <ul>
+    <li>Gosto de jogar jogos online.</li>
+    <li>Pratico futsal.</li>
+    <li>Adoro ler livros.</li>
+  </ul>
+
+  <div class="hobbies-container">
+    <img class="hobby" src="https://conectaja.proteste.org.br/wp-content/uploads/2022/02/jovem-jogando-no-pc-gamer.png" alt="Jogando no computador" />
+    <img class="hobby" src="https://www.infoescola.com/wp-content/uploads/2008/03/futsal_1014853171-1000x666.jpg" alt="Jogando futsal" />
+    <img class="hobby" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9yrfWomIkEBZFzQmD0frsIc23b1PaVAG0w&s" alt="Lendo livro" />
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>País</th>
+        <th>Imagem e descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Tailândia</td>
+        <td>
+          <figure>
+            <img class="pais-img" src="https://liveslumberparty.com/wp-content/uploads/2019/03/red-light-district-1-1-1024x684.jpg" alt="Tailândia">
+            <figcaption>Vista noturna das luzes de Bangkok, capital da Tailândia.</figcaption>
+          </figure>
+        </td>
+      </tr>
+      <tr>
+        <td>Rússia</td>
+        <td>
+          <figure>
+            <img class="pais-img" src="https://weheart.moscow/wp-content/uploads/020_0507.jpg" alt="Rússia">
+            <figcaption>Catedral de São Basílio, um dos marcos mais famosos de Moscou.</figcaption>
+          </figure>
+        </td>
+      </tr>
+      <tr>
+        <td>Estados Unidos</td>
+        <td>
+          <figure>
+            <img class="pais-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Times_Square_April_2022_by_Don_Ramey_Logan.jpg/1920px-Times_Square_April_2022_by_Don_Ramey_Logan.jpg" alt="Estados Unidos">
+            <figcaption>Times Square, um dos pontos turísticos mais famosos de Nova York.</figcaption>
+          </figure>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a href="https://gameplayscassi.com.br/" target="_blank" rel="noopener noreferrer">Visite o site Gameplays Cassi</a>
+
+</body>
+</html>
